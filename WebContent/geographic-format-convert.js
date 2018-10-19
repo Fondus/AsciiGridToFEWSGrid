@@ -2,7 +2,7 @@ function createXMLElement() {
 	var rows = document.getElementById("NumberOfRows").value;
 	var columns = document.getElementById("NumberOfColumns").value;
 	var geoDatum = document.getElementById("CoordFormat").value;
-	var x = parseFloat(document.getElementById("CoordValueY").value);
+	var x = parseFloat(document.getElementById("CoordValueX").value);
 	var y = parseFloat(document.getElementById("CoordValueY").value);
 	var cellSize = document.getElementById("CellSize").value;
 
