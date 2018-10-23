@@ -21,7 +21,7 @@ function createXMLElement() {
 				+ "</rows>\r\n" + "<columns>" + columns + "</columns>" + "\r\n"
 				+ "<geoDatum>" + geoDatum + "</geoDatum>" + "\r\n"
 				+ "<firstCellCenter> \r\n\t" + "<x>" + x + "</x>" + "\r\n\t"
-				+ "<y>" + y + "</y>" + "\r\n" + "<firstCellCenter> \r\n"
+				+ "<y>" + y + "</y>" + "\r\n" + "</firstCellCenter> \r\n"
 				+ "<xCellSize>" + cellSize + "</xCellSize>" + "\r\n"
 				+ "<yCellSize>" + cellSize + "</yCellSize>";
 	}
